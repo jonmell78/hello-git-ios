@@ -12,6 +12,8 @@ struct HelloGitApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .ignoresSafeArea()
+                .statusBarHidden()
         }
     }
 }
